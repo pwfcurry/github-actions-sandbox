@@ -1,9 +1,6 @@
 name: Java CI
 
 on:
-  push:
-    files:
-      - "src/*"
   pull_request:
     files:
       - "src/*"
