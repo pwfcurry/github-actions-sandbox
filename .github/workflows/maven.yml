@@ -15,3 +15,5 @@ jobs:
         java-version: 13
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: Danger JS Action
+      uses: danger/danger-js@9.1.8
